@@ -1,51 +1,92 @@
 <!DOCTYPE html>
-<html lang="zh_cn">
+<html lang="zh-CN">
 
-<head>nihao
-<title>陈泉欣</title>
-</head>
-<meta charset="UTF-8">
-<br>
-<del>hello</del>
-<style>
-    p {
-        text-align: center;
-    }
-    p {
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>陈泉欣</title>
+    <style>
+        body {
             font-family: Arial, sans-serif;
-            font-size: 100px;
+            margin: 0;
+            padding: 1rem;
+            text-align: center;
         }
-</style>
-<h1>
-    <u>
-        <i>
-            <p>陈泉欣</p>
-        </i>
-    </u>
-</h1>
-<h1>
-    <u>
+
+        header {
+            padding: 1rem 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0.2rem 0;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin: 0.5rem 0;
+        }
+
+        .muted {
+            text-decoration: line-through;
+        }
+
+        .under {
+            text-decoration: underline;
+        }
+
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0.5rem auto;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        footer {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>陈泉欣</h1>
         <p>文澜中学毕业生</p>
-    </u>
-</h1>
-<h2>
-    <del>
-        <u>
-            <p>挑战宣恩一中最高分（雾）</p>
-        </u>
-    </del>
-</h2>
-<img src="0624A88B8F376F108C7CD884AD758C36_0.jpg" alt="这并不好笑">
-<img src="chengji.jpg" alt="中考成绩779">   
+    </header>
 
-<pre>你好啊</pre>
+    <main>
+        <h2 class="muted under">挑战宣恩一中最高分（雾）</h2>
 
-<body>img
-    <h2>示例</h2>
-    <img src="main-visual.jpg" alt="光&对立">
-    <br>
-    <a href="https://www.bilibili.com/">B站入口</a>
-    <a href="README.md"><p>自述文件</p></a>
+        <figure>
+            <img src="0624A88B8F376F108C7CD884AD758C36_0.jpg" alt="个人照片" class="img-responsive">
+            <figcaption>这并不好笑</figcaption>
+        </figure>
+
+        <img src="chengji.jpg" alt="中考成绩：779" class="img-responsive">
+
+        <pre>你好啊</pre>
+
+        <section>
+            <h2>示例</h2>
+            <img src="main-visual.jpg" alt="光与对立" class="img-responsive">
+            <p>
+                <a href="https://www.bilibili.com/" target="_blank" rel="noopener">B站入口</a>
+                ·
+                <a href="README.md">自述文件</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 陈泉欣</p>
+    </footer>
 </body>
 
 </html>
