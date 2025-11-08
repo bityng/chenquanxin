@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>陈泉欣</title>
     <style>
+    table {
+        border-collapse: collapse; /* 合并边框 */
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    </style>
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -53,6 +67,160 @@
             color: #555;
         }
     </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header {
+            padding: 1rem 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0.2rem 0;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin: 0.5rem 0;
+        }
+
+        .muted {
+            text-decoration: line-through;
+        }
+
+        .under {
+            text-decoration: underline;
+        }
+
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0.5rem auto;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        footer {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #7fc07c;
+        }
+        
+        tr:nth-child(odd) {
+            background-color: #bb186456;
+        }
+        
+        tr:hover {
+            background-color: #4dff56;
+        }
+    </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header {
+            padding: 1rem 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0.2rem 0;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin: 0.5rem 0;
+        }
+
+        .muted {
+            text-decoration: line-through;
+        }
+
+        .under {
+            text-decoration: underline;
+        }
+
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0.5rem auto;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            border: 0.5px solid rgba(90, 77, 77, 0.199);
+        }
+        
+        caption {
+            font-weight: bold;
+            margin-bottom: 12px;
+            font-size: 1.2em;
+        }
+        
+        th, td {
+            border: 2px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        th {
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -60,9 +228,180 @@
         <h1>陈泉欣</h1>
         <p>文澜中学毕业生</p>
     </header>
+    <table>
+        <thead>
+            <th>
+                <tr>yuekaochengji</tr>
+                <tr>zhongkao</tr>
+            </th>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>mingcheng</td>
+                <td>chengji</td>
+                <td>mingcheng</td>
+                <td>chengji</td>
+            </tr>
+            <tr>
+                <td>zhongkao</td>
+                <td>779</td>
+                <td>yuekao</td>
+                <td>779</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--qingwushishangfanfbiaoge-->
+    <table>
+        <caption>历次考试成绩</caption>
+            <thead>
+                <tr>
+                    <th>考试名称</th>
+                    <th>成绩</th>
+                    <th>排名</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="highlight">中考</td>
+                    <td class="highlight">779</td>
+                    <td class="empty-data">-</td>
+                </tr>
+                <tr>
+                    <td class="highlight">入学考</td>
+                    <td class="empty-data">-</td>
+                    <td class="highlight">3</td>
+                </tr>
+                <tr>
+                    <td class="highlight">语文周考</td>
+                    <td class="empty-data">-</td>
+                    <td class="empty-data">-</td>
+                </tr>
+                <tr>
+                    <td class="highlight">英语周考</td>
+                    <td class="empty-data">-</td>
+                    <td class="empty-data">-</td>
+                </tr>
+                <tr>
+                    <td class="highlight">物理周考</td>
+                    <td class="empty-data">-</td>
+                    <td class="empty-data">-</td>
+                </tr>
+                <tr>
+                    <td class="highlight">数学周考</td>
+                    <td class="empty-data">-</td>
+                    <td class="empty-data">-</td>
+                </tr>        
+                <tr>
+                    <td class="highlight">月考</td>
+                    <td class="highlight">779</td>
+                    <td class="highlight">3</td>
+                </tr>
+            </tbody>
+    </table>
+    <!--陈泉欣每次考试成绩怎么都这么高，吓哭了说是-->
+    <table>
+            <caption>历次考试成绩</caption>
+            <thead>
+                <tr>
+                    <th>科目</th>
+                    <th>第一次</th>
+                    <th>第二次</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>语文</td>
+                    <td>110</td>
+                    <td>115</td>
+                </tr>
+                <tr>
+                    <td>数学</td>
+                    <td>130</td>
+                    <td>140</td>
+                </tr>
+                <tr>
+                    <td>英语</td>
+                    <td>120</td>
+                    <td>125</td>
+                </tr>
+                <tr>
+                    <td>物理</td>
+                    <td>90</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>化学</td>
+                    <td>45</td>
+                    <td>48</td>
+                </tr>
+                <tr>
+                    <td>政治</td>
+                    <td>50</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td>历史</td>
+                    <td>45</td>
+                    <td>48</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <caption>各科成绩总和</caption>
+            <thead>
+                <tr>
+                    <th>科目</th>
+                    <th>总分</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>语文</td>
+                    <td>225</td>
+                </tr>
+                <tr>
+                    <td>数学</td>
+                    <td>270</td>
+                </tr>
+                <tr>
+                    <td>英语</td>
+                    <td>245</td>
+                </tr>
+                <tr>
+                    <td>物理</td>
+                    <td>185</td>
+                </tr>
+                <tr>
+                    <td>化学</td>
+                    <td>93</td>
+                </tr>
+                <tr>
+                    <td>政治</td>
+                    <td>102</td>
+                </tr>
+                <tr>
+                    <td>历史</td>
+                    <td>93</td>
+                </tr>
+                <tr>
+                    <td><strong>总分</strong></td>
+                    <td><strong>1213</strong></td>
+                </tr>
+            </tbody>
+        </table>
 
     <main>
         <h2 class="muted under">挑战宣恩一中最高分（雾）</h2>
+        
+        <a>
+            <p>
+                <h1>
+                    <del>祝陈泉欣考试顺利</del>
+                </h1>
+            </p>
+        </a>
 
         <figure>
             <img src="0624A88B8F376F108C7CD884AD758C36_0.jpg" alt="个人照片" class="img-responsive">
